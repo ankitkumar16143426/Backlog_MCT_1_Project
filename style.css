@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    background: #333333;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+label.logo {
+      color: aliceblue;
+      font-size: 35px;
+      line-height: 60px;
+      padding: 0 100px;
+      font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+   /* <--------------------------------------- HERO   SECTION  -----------------------------------------------------> */
+ .hero_section {
+    background-image: url("Hero_img.png");
+    width: 100%;
+    height: 55vh;
+    /* background-color: antiquewhite; */
+}
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    border: 2px solid rgb(252, 251, 251);
+    height: 350px;
+    width: 30%;
+    margin-top: 25px;
+    border-radius: 7px;
+    background-image: url("img_2.jpg.webp");
+    background-size: cover;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: all 0.3s ease;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.box:hover{
+    box-shadow: 1px 1px 8px rgb(252, 251, 253);
+    background-color: aliceblue;
+    transform: translateY(-10px);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    color: rgb(48, 45, 45);
+    
+}
+.service-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service {
+    border: 2px solid rgb(252, 251, 251);
+    height: 200px;
+    width: 30%;
+    margin-top: 25px;
+    border-radius: 7px;
+    /* background-image: url("img_2.jpg.webp"); */
+    background-size: cover;
+    font-size: 18px;
+    color: rgb(71, 73, 75);
+}
+
+/* ----------------------------- for Card  ------------------------------------------------------------- */
+.card-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 2px solid rgb(252, 251, 251);
+    height: 250px;
+    width: 30%;
+    margin: 30px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+    background-image: url("img_2.jpg.webp");
+    background-size: cover;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: all 0.3s ease;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.card:hover{
+    box-shadow: 1px 1px 8px rgb(252, 251, 253);
+    background-color: aliceblue;
+    transform: translateY(-10px);
+}
+
+
+/* =======================  Footer Section ==================================================== */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50vh;
+    color: aliceblue;
+    background-color: rgb(44, 40, 40);
+}
+.listele{
+    font-size: 18px;
+    margin-top: 60px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(44, 40, 40);
+    color: aliceblue;
+    font-size: 18px;
+}
+
